@@ -117,9 +117,9 @@ The recommended tool for communication is minicom. In most cases the Arty UART i
 4. Use F and G to set:
    * F - Hardware Flow Control : No
    * G - Software Flow Control : No
-5. Press <escape> until you are back to the main prompt
+5. Press **escape** until you are back to the main prompt
 
-When pressing the 'Prog' button on Arty the monitor boot message should appear. The is a prompt, when you enter 'r' followed by <return> the eLua Image is loaded from Flash into memory and started.
+When pressing the 'Prog' button on Arty the monitor boot message should appear. The is a prompt, when you enter 'r' followed by **enter** the eLua Image is loaded from Flash into memory and started.
 The screen should look like as follows:
 
 ```
@@ -213,9 +213,9 @@ The `x` command will download the binary to location 0x10000 in memory.
 2. Select S (Send files)
 3. Select **xmodem**
 4. Browse to /home/*username*/upload:
-   * Double press <space> to enter a folder
-   * Press <space> to select **elua_lua_bonfire_arty.bin**
-5. Press <return> to send the file
+   * Double press **spacebar** to enter a folder
+   * Press **spacebar** to select **elua_lua_bonfire_arty.bin**
+5. Press **enter** to send the file
 
 Once the file is uploaded use the following command to run the image:
 
@@ -246,9 +246,9 @@ The `x0` command will download the binary to location 0x00000 in memory.
 2. Select S (Send files)
 3. Select **xmodem**
 4. Browse to /home/*username*/upload:
-   * Double press <space> to enter a folder
-   * Press <space> to select **ARTY_AXI_montior.bin**
-5. Press <return> to send the file
+   * Double press **spacebar** to enter a folder
+   * Press **spacebar** to select **ARTY_AXI_montior.bin**
+5. Press **enter** to send the file
 
 Once the file is uploaded use the following command to run the image.
 
